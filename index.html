@@ -3,9 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="styles.css" />
+
   <title>My Blog</title>
 </head>
+
 <body>
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="col-12">
+        <h1 class="display-4">Title of my Blog</h1>
+        <p class="lead"> All things fitness, beauty... lifestyle.</p>
+      </div>
+    </div>
+  </header>
+
   
+  <nav class="navbar navbar-expand-sm mx-auto navbar-dark bg-dark sticky-top">
+        <div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="fitness.html"><i class="fa fa-info fa-lg"></i> Fitness</a></li>
+                <li class="nav-item"><a class="nav-link" href="beauty.html"><i class="fa fa-list fa-lg"></i> Beauty</a></li>
+            </ul>
+        </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row row-content align-self-center">
+      <div class="col-7 mx-auto">
+        <h3>
+          Hi! My name is Ana!
+        </h3>
+        <p>Lover of all things fitness, beauty, and lifestyle.
+          On a typical weekday you can find me working 9-5. On the evening reorganizing my pantry for the 50th time... hitting PR's on Peloton, all while testing out new skin care! I believe weekends are made for adventures and you can find me on the road for my usual 40 mile bike ride! I'm sharing it all with you! 
+        </p>
+      </div>
+    </div>
+  
+ 
+    <div class="row row-content">
+      <div class="col mx-auto"> 
+        <div class="media">
+            <img src="img/introphoto.jpg" width=250px class="rounded mx-auto d-block" alt="intro photo" class="border border-success">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+ 
+
+<!-- scripts -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>
