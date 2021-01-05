@@ -28,4 +28,10 @@ div p {
   font-family: 'Courier New', Courier, monospace;
 }
 
-div h6 {font-size:1rem;}
+h4 {
+  padding: 20px;
+}
+
+footer{
+  padding: 50px;
+}
