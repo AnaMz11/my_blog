@@ -32,16 +32,14 @@ h4 {
   padding: 20px;
 }
 
+h5 {
+
+  padding-top: 15px;
+}
+
 footer{
   padding: 50px;
 }
-
-/* .form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
-} */
-
-
 
 #elevation {
   padding: 10px;
@@ -55,4 +53,19 @@ footer{
 
 #diablopadding{
   padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }
