@@ -6,8 +6,12 @@
   "scripts": {
     "lite": "lite-server",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
     "start": "npm run watch:all",
+    "clean": "rimraf dist",
+    "usemin": "usemin beauty.html -d dist --htmlmin -o dist/beauty.html && usemin fitness.html -d dist --htmlmin -o dist/fitness.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
